@@ -1,0 +1,1 @@
+../../../skills/xlab-office/skills/xlab-content-SKILL.md

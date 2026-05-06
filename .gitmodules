@@ -1,0 +1,3 @@
+[submodule "skills/xlab-office"]
+	path = skills/xlab-office
+	url = https://github.com/jtrjtrjtr/XLAB_OFFICE_AUTOMATION.git
