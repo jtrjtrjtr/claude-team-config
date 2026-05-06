@@ -1,0 +1,21 @@
+# Local overrides (per-user, not shared)
+CLAUDE.local.md
+.claude/settings.local.json
+
+# Secrets
+.env
+.env.*
+*.token
+*.key
+.token-cache.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+
+# Claude Code session data
+.claude/todos/
+.claude/statsig/

@@ -1,0 +1,44 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Glob",
+      "Grep",
+      "mcp__notion-query__notion_search",
+      "mcp__notion-query__notion_retrieve_page",
+      "mcp__notion-query__notion_retrieve_database",
+      "mcp__notion-query__notion_query_database",
+      "mcp__notion-query__notion_retrieve_block_children",
+      "mcp__notion-query__notion_retrieve_block",
+      "mcp__notion-query__notion_retrieve_comments",
+      "mcp__notion-query__notion_list_all_users",
+      "mcp__notion-query__notion_retrieve_bot_user",
+      "mcp__ms-365__list-mail-messages",
+      "mcp__ms-365__get-mail-message",
+      "mcp__ms-365__list-calendar-events",
+      "mcp__ms-365__get-calendar-event",
+      "mcp__ms-365__get-calendar-view",
+      "mcp__ms-365__list-calendars",
+      "mcp__ms-365__get-current-user",
+      "mcp__ms-365__verify-login",
+      "mcp__ms-365__list-accounts",
+      "mcp__ms-365__get-mailbox-settings",
+      "mcp__ms-365__list-mail-folders",
+      "mcp__ms-365__list-todo-task-lists",
+      "mcp__ms-365__list-todo-tasks",
+      "mcp__ms-365__list-drives",
+      "mcp__ms-365__list-folder-files"
+    ],
+    "deny": [
+      "mcp__ms-365__delete-mail-message",
+      "mcp__ms-365__delete-calendar",
+      "mcp__ms-365__delete-calendar-event",
+      "mcp__ms-365__delete-onedrive-file",
+      "mcp__ms-365__delete-todo-task",
+      "mcp__ms-365__delete-mail-folder",
+      "mcp__ms-365__delete-mail-rule",
+      "mcp__ms-365__delete-outlook-contact",
+      "mcp__notion-query__notion_delete_block"
+    ]
+  }
+}
